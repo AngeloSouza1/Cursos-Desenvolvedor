@@ -5,13 +5,13 @@
 
 ### Cursos Concluídos:
 
- #### 3 -  Curso Linguagem de Programação Ruby: [ Curso Linguagem Ruby - 1 ]
+ ####  -  Curso Linguagem de Programação Ruby: [ Curso Linguagem Ruby - 1 ]
 <p align="justify">  A linguagem Ruby é uma ótima maneira de começar a aprender programação ou expandir suas habilidades de desenvolvimento de software, especialmente se você estiver interessado em desenvolvimento web ou aplicativos que utilizam Ruby. É uma linguagem versátil e poderosa que é amplamente usada na indústria de tecnologia.</p>
 
-#### 2 -  Curso Programação Orientada a Objeto em Ruby: [ Curso POO Ruby-1 ]
+####  -  Curso Programação Orientada a Objeto em Ruby: [ Curso POO Ruby-1 ]
 <p align="justify">   Este curso é uma jornada de aprendizado empolgante sobre a Programação Orientada a Objeto (POO) usando a linguagem de programação Ruby. A POO é um paradigma de programação essencial que se baseia na criação de objetos para resolver problemas de forma eficiente e modular.</p>
 
-#### 1 -  Curso Lógica de Programação: [ LP-1 ]
+####  -  Curso Lógica de Programação: [ LP-1 ]
  <p align="justify">   A lógica de programação é a base fundamental de toda a ciência da computação e desenvolvimento de software. Trata-se de uma habilidade essencial que permite que os programadores resolvam problemas de forma eficaz e eficiente através da criação de algoritmos.</p>
 
 
