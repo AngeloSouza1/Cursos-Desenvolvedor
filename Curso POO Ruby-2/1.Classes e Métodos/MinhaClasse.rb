@@ -1,8 +1,19 @@
-class MinhaClasse
+class Pessoa
+    attr_writer :nome
+       
+    def initialize(nome)
+        @nome = nome
+    end
+    
     def imprimir_ola(nome)
+        @nome = nome
         puts "Olá #{nome}"
     end
+    
+  
 end
 
-objeto = MinhaClasse.new
-objeto.imprimir_ola("Angelo")
+pessoa = Pessoa.new("pessoa")
+pessoa.nome = "Foo"
+pessoa.imprimir_ola
+
