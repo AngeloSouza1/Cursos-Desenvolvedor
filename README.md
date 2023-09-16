@@ -11,6 +11,10 @@
 ####  -  Curso Programação Orientada a Objeto em Ruby: [ Curso POO Ruby-1 ]
 <p align="justify">   Este curso é uma jornada de aprendizado empolgante sobre a Programação Orientada a Objeto (POO) usando a linguagem de programação Ruby. A POO é um paradigma de programação essencial que se baseia na criação de objetos para resolver problemas de forma eficiente e modular.</p>
 
+####  -  Curso Programação Orientada a Objeto em Ruby: [ Curso POO Ruby-2 ]
+<p align="justify"> Um curso de Programação Orientada a Objetos em Ruby é um programa educacional projetado para capacitar os participantes com os conhecimentos e habilidades necessários para dominar os princípios da Programação Orientada a Objetos (POO) por meio da linguagem de programação Ruby. A POO é um paradigma de programação fundamental amplamente adotado na indústria de desenvolvimento de software, e Ruby é uma linguagem conhecida por sua simplicidade e elegância na implementação de conceitos de POO.</p>
+
+
 ####  -  Curso Lógica de Programação: [ LP-1 ]
  <p align="justify">   A lógica de programação é a base fundamental de toda a ciência da computação e desenvolvimento de software. Trata-se de uma habilidade essencial que permite que os programadores resolvam problemas de forma eficaz e eficiente através da criação de algoritmos.</p>
 
