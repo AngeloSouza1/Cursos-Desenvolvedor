@@ -11,7 +11,7 @@ class ContaBancaria
                 outra_conta.depositar(valor)
                 # consigo
             else
-               raise "Saldo Insuficiente"
+               puts "Saldo Insuficiente"
             end
     end
 
