@@ -5,6 +5,9 @@
 
 ### Cursos Concluídos:
 
+ ####  -  Curso Framework: [ Ruby on Rails - Introdução à Arquitetura MVC - 1 ]
+<p align="justify">  O curso "Ruby on Rails - Introdução à Arquitetura MVC" é uma introdução essencial para qualquer pessoa interessada em aprender sobre o popular framework Ruby on Rails e o padrão de design MVC (Model-View-Controller). Durante o curso, os participantes têm a oportunidade de explorar como o Ruby on Rails implementa o MVC, entendendo como cada componente - o Modelo, a Visão e o Controlador - funciona em conjunto para criar aplicativos da web dinâmicos e escaláveis. Este curso é fundamental para desenvolvedores que desejam construir aplicações da web eficientes e estruturadas usando Ruby on Rails, aproveitando os princípios do MVC para criar código organizado e de fácil manutenção.</p>
+
  ####  -  Curso Linguagem de Programação Ruby: [ Curso Linguagem Ruby - 1 ]
 <p align="justify">  A linguagem Ruby é uma ótima maneira de começar a aprender programação ou expandir suas habilidades de desenvolvimento de software, especialmente se você estiver interessado em desenvolvimento web ou aplicativos que utilizam Ruby. É uma linguagem versátil e poderosa que é amplamente usada na indústria de tecnologia.</p>
 
