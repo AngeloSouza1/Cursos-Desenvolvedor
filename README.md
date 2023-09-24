@@ -19,16 +19,23 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    - Como funciona os tipos de dados no MySQL, como o int, bigint, varchar, char etc.
    #### 5. Criando Tabelas
    - Como criar tabelas, definir campos, tipos de dados, chave primária, alter table etc.
-   #### 6 Insert e Select
+   #### 6. Insert e Select
    - Como utilizar comandos SQL para Inserir e mostrar registros. Mais conhecido como SELECT e INSERT. No final, é mostrado     como funciona o auto increment do MySQL. 
-   #### 7 Clausula Where
+   #### 7. Clausula Where
    - Um dos comandos mais utilizado na linguagem SQL é o comando WHERE, com ele é possível filtrar resultados, adicionando 
    condições em seu comando SQL.
-   #### 8 Update e Delete - Comandos SQL
+   #### 8. Update e Delete - Comandos SQL
    - Nesta aula será mostrado como funciona os comandos UPDATE e DELETE. O primeiro serve para atualizar registros em uma 
    tabela e o segundo, como o próprio nome sugere, para apagar registros. 
-   #### 9 DataTypes - Double, Date e Text
-   - Veja nesta aula outros DataType. As vezes necessitamos gravar, por exemplo, o preço de um produto, neste caso, o Double    é recomendado. No final, será mostrado outros tipos de dados como text (para campos que exigem textos maiores) e date  (para armazenar datas).</p>
+   #### 9. DataTypes - Double, Date e Text
+   - Veja nesta aula outros DataType. As vezes necessitamos gravar, por exemplo, o preço de um produto, neste caso, o Double    é recomendado. No final, será mostrado outros tipos de dados como text (para campos que exigem textos maiores) e date  (para armazenar datas).
+   #### 10. Funções de Agregações: SUM, COUNT
+   - Nesta aula será mostrado como funciona as funções de agregações no MySQL, como a SUM, utilizada para somar o resultado total de um campo. No final, é mostrado também como funciona o GROUP BY..</p>
+
+
+
+
+
  
 ### Cursos Concluídos:
 
