@@ -38,7 +38,14 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    #### 13. Workbench - Modelagem de dados
    - Veja nesta aula como realizar a modelagem de um banco de dados utilizando o MySQL Workbench.
    #### 14. Foreign Key - Relacionando Tabelas
-   - Nesta aula será mostrado como criar uma Foreign Key. A mesma é utilizada quando é necessário relacionar tabelas. Ela é relacionada com uma chave primária de uma tabela. </p>
+   - Nesta aula será mostrado como criar uma Foreign Key. A mesma é utilizada quando é necessário relacionar tabelas. Ela é relacionada com uma chave primária de uma tabela.
+   #### 15. Inner Join no MySQL
+   - As vezes é necessário exibir dados de mais de uma tabela. Assim, o uso do INNER JOIN pode ser uma excelente escolha. Nesta aula é mostrado como funciona o INNER JOIN e como utilizá-lo na prática.   
+   
+   
+   
+   
+   </p>
 
 
 
