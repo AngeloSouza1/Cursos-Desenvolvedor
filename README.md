@@ -34,7 +34,9 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    #### 11. Operadores no MySQL
    - Nesta aula será mostrado como funciona os operadores do MySQL: =, <, >, <> e LIKE. Este último é bastante importante quando é necessário "filtrar" o resultado de uma query (execução de um comando SQL).
    #### 12. Limit e Valores Default
-   - Nesta  aula será mostrado como utilizar a clausula LIMIT e como definir valores default para alguns campos de uma tabela.</p>
+   - Nesta  aula será mostrado como utilizar a clausula LIMIT e como definir valores default para alguns campos de uma tabela.
+   #### 13. Workbench - Modelagem de dados
+   - Veja nesta aula como realizar a modelagem de um banco de dados utilizando o MySQL Workbench.</p>
 
 
 
