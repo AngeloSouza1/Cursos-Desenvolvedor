@@ -41,11 +41,8 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    - Nesta aula será mostrado como criar uma Foreign Key. A mesma é utilizada quando é necessário relacionar tabelas. Ela é relacionada com uma chave primária de uma tabela.
    #### 15. Inner Join no MySQL
    - As vezes é necessário exibir dados de mais de uma tabela. Assim, o uso do INNER JOIN pode ser uma excelente escolha. Nesta aula é mostrado como funciona o INNER JOIN e como utilizá-lo na prática.   
-   
-   
-   
-   
-   </p>
+   #### 16. MySQL WorkBench - Exportando Modelo
+   - Nesta aula será mostrado como gerar o script SQL (DDL) das tabelas criadas. Por fim, é mostrado como utilizr a ferramenta no lugar da command line.  </p>
 
 
 
