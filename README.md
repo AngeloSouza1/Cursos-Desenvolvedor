@@ -14,7 +14,9 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    #### 2. Instalacao e Configuração do servidor MySQL
    - Como realizar a instalação e configuração do servidor MySQL. Você irá aprender a configurar sua porta, usuário e senha.
    #### 3. Console MySQL
-   -Entender o que são tabelas, campos e registros. Por fim, iremos conectar ao banco de dados MySQL, e aprender a executar      alguns comandos, como o SHOW DATABASES e CREATE DATABASE.
+   - Entender o que são tabelas, campos e registros. Por fim, iremos conectar ao banco de dados MySQL, e aprender a executar      alguns comandos, como o SHOW DATABASES e CREATE DATABASE.
+   #### 4. Data Types - Tipos de dados no MySQL
+   - Como funciona os tipos de dados no MySQL, como o int, bigint, varchar, char etc.
 
 
 
