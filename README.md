@@ -11,10 +11,10 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
 
    #### 1. Introdução
    - Uma introdução de como funciona o MySQL e o que é banco de dados (SGDB).
-
-
-
-
+   #### 2. Instalacao e Configuração do servidor MySQL
+   - Como realizar a instalação e configuração do servidor MySQL. Você irá aprender a configurar sua porta, usuário e senha.
+   #### 3. Console MySQL
+   -Entender o que são tabelas, campos e registros. Por fim, iremos conectar ao banco de dados MySQL, e aprender a executar      alguns comandos, como o SHOW DATABASES e CREATE DATABASE.
 
 
 
