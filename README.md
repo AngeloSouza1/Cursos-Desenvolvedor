@@ -30,8 +30,9 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    #### 9. DataTypes - Double, Date e Text
    - Veja nesta aula outros DataType. As vezes necessitamos gravar, por exemplo, o preço de um produto, neste caso, o Double    é recomendado. No final, será mostrado outros tipos de dados como text (para campos que exigem textos maiores) e date  (para armazenar datas).
    #### 10. Funções de Agregações: SUM, COUNT
-   - Nesta aula será mostrado como funciona as funções de agregações no MySQL, como a SUM, utilizada para somar o resultado total de um campo. No final, é mostrado também como funciona o GROUP BY..</p>
-
+   - Nesta aula será mostrado como funciona as funções de agregações no MySQL, como a SUM, utilizada para somar o resultado total de um campo. No final, é mostrado também como funciona o GROUP BY.
+   #### 11. Operadores no MySQL
+   - Nesta aula será mostrado como funciona os operadores do MySQL: =, <, >, <> e LIKE. Este último é bastante importante quando é necessário "filtrar" o resultado de uma query (execução de um comando SQL).</p>
 
 
 
