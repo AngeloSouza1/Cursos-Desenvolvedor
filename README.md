@@ -7,7 +7,19 @@
 
 ####  -  Curso de MySQL Online: [ Curso MySQL- 1 ]
 <p align="justify">  
-Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar os recursos do MySQL. Aprender a criar banco de dados, trabalhar com tabelas, compreender a linguagem SQL, relacionamento entre tabelas, modelagem de dados utilizando o MySQL Workbench etc. No curso de MySQL online você irá aprender todos os passos necessários para utilizar um banco de dados da melhor forma possível. </p>
+Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar os recursos do MySQL. Aprender a criar banco de dados, trabalhar com tabelas, compreender a linguagem SQL, relacionamento entre tabelas, modelagem de dados utilizando o MySQL Workbench etc. No curso de MySQL online você irá aprender todos os passos necessários para utilizar um banco de dados da melhor forma possível. 
+
+   #### 1. Introdução
+   - Uma introdução de como funciona o MySQL e o que é banco de dados (SGDB).
+
+
+
+
+
+
+
+
+</p>
 
 
  
