@@ -36,7 +36,9 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    #### 12. Limit e Valores Default
    - Nesta  aula será mostrado como utilizar a clausula LIMIT e como definir valores default para alguns campos de uma tabela.
    #### 13. Workbench - Modelagem de dados
-   - Veja nesta aula como realizar a modelagem de um banco de dados utilizando o MySQL Workbench.</p>
+   - Veja nesta aula como realizar a modelagem de um banco de dados utilizando o MySQL Workbench.
+   #### 14. Foreign Key - Relacionando Tabelas
+   - Nesta aula será mostrado como criar uma Foreign Key. A mesma é utilizada quando é necessário relacionar tabelas. Ela é relacionada com uma chave primária de uma tabela. </p>
 
 
 
