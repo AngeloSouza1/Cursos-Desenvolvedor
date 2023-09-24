@@ -20,11 +20,13 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    #### 5. Criando Tabelas
    - Como criar tabelas, definir campos, tipos de dados, chave primária, alter table etc.
    #### 6 Insert e Select
-   - Como utilizar comandos SQL para Inserir e mostrar registros. Mais conhecido como SELECT e INSERT. No final, é mostrado     como funciona o auto increment do MySQL. </p>
+   - Como utilizar comandos SQL para Inserir e mostrar registros. Mais conhecido como SELECT e INSERT. No final, é mostrado     como funciona o auto increment do MySQL. 
    #### 7 Clausula Where
    - Um dos comandos mais utilizado na linguagem SQL é o comando WHERE, com ele é possível filtrar resultados, adicionando 
    condições em seu comando SQL. </p>
-
+   #### 8 Update e Delete - Comandos SQL
+   - Nesta aula será mostrado como funciona os comandos UPDATE e DELETE. O primeiro serve para atualizar registros em uma 
+   tabela e o segundo, como o próprio nome sugere, para apagar registros. </p>
 
  
 ### Cursos Concluídos:
