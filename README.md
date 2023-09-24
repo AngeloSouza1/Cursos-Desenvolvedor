@@ -5,7 +5,7 @@
  
 ### Cursos em Andamento:
 
-####  -  Curso de MySQL Online: [ Curso MySQL- 1 ]
+####  -  Curso de MySQL Online: [BD_MySql-1]
 <p align="justify">  
 Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar os recursos do MySQL. Aprender a criar banco de dados, trabalhar com tabelas, compreender a linguagem SQL, relacionamento entre tabelas, modelagem de dados utilizando o MySQL Workbench etc. No curso de MySQL online você irá aprender todos os passos necessários para utilizar um banco de dados da melhor forma possível. 
 
@@ -43,10 +43,6 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    - As vezes é necessário exibir dados de mais de uma tabela. Assim, o uso do INNER JOIN pode ser uma excelente escolha. Nesta aula é mostrado como funciona o INNER JOIN e como utilizá-lo na prática.   
    #### 16. MySQL WorkBench - Exportando Modelo
    - Nesta aula será mostrado como gerar o script SQL (DDL) das tabelas criadas. Por fim, é mostrado como utilizr a ferramenta no lugar da command line.  </p>
-
-
-
-
  
 ### Cursos Concluídos:
 
