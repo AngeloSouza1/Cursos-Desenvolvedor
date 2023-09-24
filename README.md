@@ -17,8 +17,8 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    - Entender o que são tabelas, campos e registros. Por fim, iremos conectar ao banco de dados MySQL, e aprender a executar      alguns comandos, como o SHOW DATABASES e CREATE DATABASE.
    #### 4. Data Types - Tipos de dados no MySQL
    - Como funciona os tipos de dados no MySQL, como o int, bigint, varchar, char etc.
-
-
+   #### 5. Criando Tabelas
+   - Como criar tabelas, definir campos, tipos de dados, chave primária, alter table etc.
 
 
 </p>
