@@ -32,7 +32,9 @@ Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar
    #### 10. Funções de Agregações: SUM, COUNT
    - Nesta aula será mostrado como funciona as funções de agregações no MySQL, como a SUM, utilizada para somar o resultado total de um campo. No final, é mostrado também como funciona o GROUP BY.
    #### 11. Operadores no MySQL
-   - Nesta aula será mostrado como funciona os operadores do MySQL: =, <, >, <> e LIKE. Este último é bastante importante quando é necessário "filtrar" o resultado de uma query (execução de um comando SQL).</p>
+   - Nesta aula será mostrado como funciona os operadores do MySQL: =, <, >, <> e LIKE. Este último é bastante importante quando é necessário "filtrar" o resultado de uma query (execução de um comando SQL).
+   #### 12. Limit e Valores Default
+   - Nesta  aula será mostrado como utilizar a clausula LIMIT e como definir valores default para alguns campos de uma tabela.</p>
 
 
 
