@@ -1,0 +1,300 @@
+
+mysql> describe alunos;
++-------+--------------+------+-----+---------+----------------+
+| Field | Type         | Null | Key | Default | Extra          |
++-------+--------------+------+-----+---------+----------------+
+| id    | int(11)      | NO   | PRI | NULL    | auto_increment |
+| nome  | varchar(100) | NO   |     | NULL    |                |
+| email | varchar(100) | NO   |     | NULL    |                |
+| cpf   | char(11)     | YES  |     | NULL    |                |
+| obs   | varchar(255) | YES  |     | NULL    |                |
++-------+--------------+------+-----+---------+----------------+
+5 rows in set (0.02 sec)
+
+mysql> ALTER TABLE alunos MODIFY COLUMN cpf CHAR(11) NOT NULL;
+Query OK, 0 rows affected (0.13 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> describe alunos;
++-------+--------------+------+-----+---------+----------------+
+| Field | Type         | Null | Key | Default | Extra          |
++-------+--------------+------+-----+---------+----------------+
+| id    | int(11)      | NO   | PRI | NULL    | auto_increment |
+| nome  | varchar(100) | NO   |     | NULL    |                |
+| email | varchar(100) | NO   |     | NULL    |                |
+| cpf   | char(11)     | NO   |     | NULL    |                |
+| obs   | varchar(255) | YES  |     | NULL    |                |
++-------+--------------+------+-----+---------+----------------+
+5 rows in set (0.01 sec)
+
+mysql>
+mysql>
+mysql>
+mysql> describe cursos;
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    1
+Current database: escola
+
++-----------+--------------+------+-----+---------+----------------+
+| Field     | Type         | Null | Key | Default | Extra          |
++-----------+--------------+------+-----+---------+----------------+
+| id        | int(11)      | NO   | PRI | NULL    | auto_increment |
+| nome      | varchar(100) | NO   |     | NULL    |                |
+| descricao | varchar(255) | YES  |     | NULL    |                |
++-----------+--------------+------+-----+---------+----------------+
+3 rows in set (0.15 sec)
+
+mysql> SELECT * FROM cursos;
+Empty set (0.02 sec)
+
+mysql> INSERT INTO cursos (nome, descricao) VALUES ('Curso de MySQL', 'Aulas de
+MySQL');
+Query OK, 1 row affected (0.04 sec)
+
+mysql> SELECT * FROM cursos;
++----+----------------+----------------+
+| id | nome           | descricao      |
++----+----------------+----------------+
+|  1 | Curso de MySQL | Aulas de MySQL |
++----+----------------+----------------+
+1 row in set (0.00 sec)
+
+mysql> INSERT INTO cursos (nome, descricao) VALUES ('Curso de Android', 'Aulas d
+e Android');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> SELECT * FROM cursos;
++----+------------------+------------------+
+| id | nome             | descricao        |
++----+------------------+------------------+
+|  1 | Curso de MySQL   | Aulas de MySQL   |
+|  2 | Curso de Android | Aulas de Android |
++----+------------------+------------------+
+2 rows in set (0.00 sec)
+
+mysql>
+mysql>
+mysql>
+mysql>
+mysql>
+mysql>
+mysql>
+mysql>
+mysql> SELECT * FROM cursos;
++----+------------------+------------------+
+| id | nome             | descricao        |
++----+------------------+------------------+
+|  1 | Curso de MySQL   | Aulas de MySQL   |
+|  2 | Curso de Android | Aulas de Android |
++----+------------------+------------------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM cursos;
++----+------------------+------------------+
+| id | nome             | descricao        |
++----+------------------+------------------+
+|  1 | Curso de MySQL   | Aulas de MySQL   |
+|  2 | Curso de Android | Aulas de Android |
++----+------------------+------------------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM alunos;
++----+-----------+------------------------+-------------+-----------------------
+---------+
+| id | nome      | email                  | cpf         | obs
+         |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+|  1 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  2 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  3 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  4 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  5 | RL System | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+5 rows in set (0.06 sec)
+
+mysql> SELECT * FROM alunos;
++----+-----------+------------------------+-------------+-----------------------
+---------+
+| id | nome      | email                  | cpf         | obs
+         |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+|  1 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  2 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  3 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  4 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  5 | RL System | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT * FROM cursos WHERE id = 1;
++----+----------------+----------------+
+| id | nome           | descricao      |
++----+----------------+----------------+
+|  1 | Curso de MySQL | Aulas de MySQL |
++----+----------------+----------------+
+1 row in set (0.07 sec)
+
+mysql> SELECT * FROM cursos WHERE id = 2;
++----+------------------+------------------+
+| id | nome             | descricao        |
++----+------------------+------------------+
+|  2 | Curso de Android | Aulas de Android |
++----+------------------+------------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM cursos WHERE id = 2;
++----+------------------+------------------+
+| id | nome             | descricao        |
++----+------------------+------------------+
+|  2 | Curso de Android | Aulas de Android |
++----+------------------+------------------+
+1 row in set (0.00 sec)
+
+mysql>
+mysql>
+mysql>
+mysql>
+mysql> SELECT * FROM alunos;
++----+-----------+------------------------+-------------+-----------------------
+---------+
+| id | nome      | email                  | cpf         | obs
+         |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+|  1 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  2 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  3 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  4 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  5 | RL System | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+5 rows in set (0.00 sec)
+
+mysql> INSERT into alunos (nome, email, cpf, obs) VALUES ('Alguem', 'alguem@rlsy
+stem.com.br', '12345678910', 'lala');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SELECT * FROM alunos;
++----+-----------+------------------------+-------------+-----------------------
+---------+
+| id | nome      | email                  | cpf         | obs
+         |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+|  1 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  2 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  3 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  4 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  5 | RL System | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  6 | Alguem    | alguem@rlsystem.com.br | 12345678910 | lala
+         |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+6 rows in set (0.00 sec)
+
+mysql> SELECT * FROM alunos WHERE id = 6;
++----+--------+------------------------+-------------+------+
+| id | nome   | email                  | cpf         | obs  |
++----+--------+------------------------+-------------+------+
+|  6 | Alguem | alguem@rlsystem.com.br | 12345678910 | lala |
++----+--------+------------------------+-------------+------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM alunos WHERE cpf = '12345678910';
++----+--------+------------------------+-------------+------+
+| id | nome   | email                  | cpf         | obs  |
++----+--------+------------------------+-------------+------+
+|  6 | Alguem | alguem@rlsystem.com.br | 12345678910 | lala |
++----+--------+------------------------+-------------+------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM alunos WHERE cpf = '10203040101';
++----+-----------+------------------------+-------------+-----------------------
+---------+
+| id | nome      | email                  | cpf         | obs
+         |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+|  1 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  2 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  3 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  4 | Rafael    | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
+|  5 | RL System | rafael@rlsystem.com.br | 10203040101 | Este é um exemplo de c
+adastro  |
++----+-----------+------------------------+-------------+-----------------------
+---------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT * FROM alunos WHERE email = 'alguem@rlsystem.com.br';
++----+--------+------------------------+-------------+------+
+| id | nome   | email                  | cpf         | obs  |
++----+--------+------------------------+-------------+------+
+|  6 | Alguem | alguem@rlsystem.com.br | 12345678910 | lala |
++----+--------+------------------------+-------------+------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM alunos WHERE email = 'alguem@rlsystem.com.br';
++----+--------+------------------------+-------------+------+
+| id | nome   | email                  | cpf         | obs  |
++----+--------+------------------------+-------------+------+
+|  6 | Alguem | alguem@rlsystem.com.br | 12345678910 | lala |
++----+--------+------------------------+-------------+------+
+1 row in set (0.00 sec)
+
+mysql> show tables;
++------------------+
+| Tables_in_escola |
++------------------+
+| alunos           |
+| cursos           |
+| professores      |
++------------------+
+3 rows in set (0.00 sec)
+
+mysql> CREATE TABLE cidades(
+    -> id int NOT NULL AUTO_INCREMENT,
+    -> nome VARCHAR(200) NOT NULL,
+    -> uf char(2) NOT NULL,
+    -> primary key(id));
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> describe cidades;
++-------+--------------+------+-----+---------+----------------+
+| Field | Type         | Null | Key | Default | Extra          |
++-------+--------------+------+-----+---------+----------------+
+| id    | int(11)      | NO   | PRI | NULL    | auto_increment |
+| nome  | varchar(200) | NO   |     | NULL    |                |
+| uf    | char(2)      | NO   |     | NULL    |                |
++-------+--------------+------+-----+---------+----------------+
+3 rows in set (0.01 sec)
+
+mysql>

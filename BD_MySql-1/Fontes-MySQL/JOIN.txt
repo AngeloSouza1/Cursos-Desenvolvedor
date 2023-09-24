@@ -1,0 +1,5 @@
+
+SELECT clientes.nome as nome_cliente, produtos.nome as nome_produto, cont
+as_receber.documento FROM contas_receber INNER JOIN clientes ON clientes.id = co
+ntas_receber.id_cliente INNER JOIN produtos ON produtos.id = contas_receber.id_p
+roduto;
