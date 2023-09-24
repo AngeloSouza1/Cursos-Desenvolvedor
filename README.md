@@ -2,7 +2,15 @@
 
 ## Descrição 
 <p align="justify">Neste repositório, compartilho minha jornada de aprendizado e os cursos de especialização que concluí ao longo do tempo. Como um entusiasta da educação contínua, busquei aprimorar minhas habilidades e conhecimentos em diversas áreas da minha carreira.
+ 
+### Cursos em Andamento:
 
+####  -  Curso de MySQL Online: [ Curso MySQL- 1 ]
+<p align="justify">  
+Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar os recursos do MySQL. Aprender a criar banco de dados, trabalhar com tabelas, compreender a linguagem SQL, relacionamento entre tabelas, modelagem de dados utilizando o MySQL Workbench etc. No curso de MySQL online você irá aprender todos os passos necessários para utilizar um banco de dados da melhor forma possível. </p>
+
+
+ 
 ### Cursos Concluídos:
 
  ####  -  Curso Linguagem de Programação Ruby: [ Curso Linguagem Ruby - 1 ]
