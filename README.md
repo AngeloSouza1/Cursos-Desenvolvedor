@@ -5,11 +5,62 @@
  
 ### Cursos em Andamento:
 
-
- -------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
  
 ### Cursos Concluídos:
-####  -  Curso de MySQL Online: [BD_MySql-1]
+####  -  SQL Server - Primeiros Passos [BD_SQL-2]
+<p align="justify">  
+O SQL Server é desenvolvido e mantido pela Microsoft, é há anos um dos principais SGBDs relacionais do mercado. Distribuído em diferentes edições e com várias ferramentas integradas, esse banco é capaz de atender às demandas desde os mais simples negócios até os mais complexos cenários que lidam com grande volume de dados. Neste curso de SQL Server Básico Online, você irá aprender a instalar e configurar o mesmo, além de entender seus princípios básicos, como execução de Query (SELECT, DELETE, INSERT e UPDATE), criação de tabelas, chave estrangeira, chave primária etc.
+
+ Conteúdo do Curso
+Módulo 1 - Introdução
+- Objetivo do curso
+- SQL Server x SQL Express
+- Instalação e Configuração
+- SQL Server Management Studio
+
+Módulo 2 - SQL Server Management Studio
+- Banco de Dados
+- Criação de Banco de Dados
+- Recursos do SQL Server Management Studio
+
+Módulo 3 - DDL - Data Definition Language
+- Create/Drop Table
+- Data Types
+- Primary Key
+- IDENTITY
+- Foreign Key
+- NOT NULL
+- DEFAULT
+
+Módulo 4 - DML - Data Manipulation Language
+- INSERT
+- DELETE
+- UPDATE
+- SELECT
+- ORDER BY
+- WHERE
+- BETWEEN
+- LIKE
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+
+Módulo 5 - Funções de Agregação
+- AVG
+- SUM
+- COUNT
+- MIN
+- MAX
+
+Módulo 6 - Views
+- O que são Views
+- CREATE View
+- DROP VIEW
+- Executando uma View</p>
+
+-------------------------------------------------------------------------------------------------------------------------
+ ####  -  Curso de MySQL Online: [BD_MySql-1]
 <p align="justify">  
 Neste curso de MySQL,verifica-se como funciona um banco de dados e como utilizar os recursos do MySQL. Aprender a criar banco de dados, trabalhar com tabelas, compreender a linguagem SQL, relacionamento entre tabelas, modelagem de dados utilizando o MySQL Workbench etc. No curso de MySQL online você irá aprender todos os passos necessários para utilizar um banco de dados da melhor forma possível. 
 
