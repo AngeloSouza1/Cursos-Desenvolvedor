@@ -3,10 +3,7 @@
 ## Descrição 
 <p align="justify">Neste repositório, compartilho minha jornada de aprendizado e os cursos de especialização que concluí ao longo do tempo. Como um entusiasta da educação contínua, busquei aprimorar minhas habilidades e conhecimentos em diversas áreas da minha carreira.
  
-### Cursos em Andamento:
-
 -------------------------------------------------------------------------------------------------------------------------
- 
 ### Cursos Concluídos:
 ####  -  SQL Server - Primeiros Passos [BD_SQL-2]
 <p align="justify">  
