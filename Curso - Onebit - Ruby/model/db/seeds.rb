@@ -11,12 +11,17 @@
 #     Product.create!(name: "Produto #{i + 1}")
 #   end
 
-require 'faker'
+# require 'faker'
 
-# Criação de 10 produtos de exemplo com valores aleatórios
-10.times do
-Product.create(
-    name: Faker::Commerce.product_name,
-    # Adicione outros atributos aleatórios, se necessário
-)
-end
+# # Criação de 10 produtos de exemplo com valores aleatórios
+# 10.times do
+# Product.create(
+#     name: Faker::Commerce.product_name,
+#     # Adicione outros atributos aleatórios, se necessário
+# )
+# end
+
+
+s1 = Student.create(name: "Fulano")
+
+t1 = Teacher.create(name: "Sicrano")
