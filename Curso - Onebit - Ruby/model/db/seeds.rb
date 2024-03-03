@@ -22,6 +22,33 @@
 # end
 
 
-s1 = Student.create(name: "Fulano")
+# s1 = Student.create(name: "Fulano")
 
-t1 = Teacher.create(name: "Sicrano")
+# t1 = Teacher.create(name: "Sicrano")
+
+# Criar alguns usuários de exemplo
+5.times do |i|
+    User.create!(
+      name: "User #{i+1}",
+      email: "user#{i+1}@example.com"
+    )
+  end
+  
+  # Criar alguns artigos de exemplo para cada usuário
+  User.all.each do |user|
+    3.times do |i|
+      article = user.articles.create!(
+        title: "Article #{i+1} by #{user.name}",
+        content: "Content of article #{i+1} by #{user.name}",
+        category: "Category #{i+1}"
+      )
+      
+      # Criar alguns comentários de exemplo para cada artigo
+      2.times do |j|
+        article.comments.create!(
+          body: "Comment #{j+1} on article #{article.title}",
+          user: User.all.sample
+        )
+      end
+    end
+  end
