@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bem-vindo ao ExemploViews</title>
+</head>
+<body>
+<div class="container"
+<h1>Bem-vindo ao ExemploViews</h1>
+
+<h2>Produtos Disponíveis:</h2>
+<ul>
+  <% @produtos.each do |produto| %>
+    <li><%= produto["nome"] %> - <%= format_price(produto["preco"]) %></li>
+  <% end %>
+</ul>
+<hr>
+<h3>Adicionar Novo Produto:</h3>
+<%= form_tag({ controller: "welcome", action: "adicionar_produto" }, method: "post") do %>
+  <label for="nome">Nome:</label>
+  <%= text_field_tag "nome", nil, required: true %>
+
+  <label for="preco">Preço:</label>
+  <%= number_field_tag "preco", nil, required: true %>
+
+  <%= submit_tag "Adicionar Produto" %>
+<% end %>
+</div>
+</body>
+</html>
