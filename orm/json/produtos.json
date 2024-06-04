@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "nome": "Camiseta Básica",
+    "descricao": "Camiseta de algodão, disponível em várias cores",
+    "preco": 29.99,
+    "estoque": 100,
+    "fornecedor_id": 1
+  },
+  {
+    "id": 2,
+    "nome": "Calça Jeans",
+    "descricao": "Calça jeans skinny, azul escuro",
+    "preco": 89.99,
+    "estoque": 50,
+    "fornecedor_id": 2
+  },
+  {
+    "id": 3,
+    "nome": "Tênis Esportivo",
+    "descricao": "Tênis para corrida, com amortecimento",
+    "preco": 199.99,
+    "estoque": 30,
+    "fornecedor_id": 3
+  },
+  {
+    "id": 4,
+    "nome": "Jaqueta de Couro",
+    "descricao": "Jaqueta de couro sintético, preta",
+    "preco": 149.99,
+    "estoque": 20,
+    "fornecedor_id": 4
+  },
+  {
+    "id": 5,
+    "nome": "Relógio Digital",
+    "descricao": "Relógio digital com diversas funções",
+    "preco": 249.99,
+    "estoque": 40,
+    "fornecedor_id": 5
+  },
+  {
+    "id": 6,
+    "nome": "Bolsa Feminina",
+    "descricao": "Bolsa de couro, marrom",
+    "preco": 89.99,
+    "estoque": 60,
+    "fornecedor_id": 1
+  },
+  {
+    "id": 7,
+    "nome": "Óculos de Sol",
+    "descricao": "Óculos de sol polarizado, unissex",
+    "preco": 59.99,
+    "estoque": 70,
+    "fornecedor_id": 2
+  },
+  {
+    "id": 8,
+    "nome": "Chapéu de Praia",
+    "descricao": "Chapéu de palha, ideal para praia",
+    "preco": 39.99,
+    "estoque": 80,
+    "fornecedor_id": 3
+  },
+  {
+    "id": 9,
+    "nome": "Mochila Escolar",
+    "descricao": "Mochila com várias divisões, resistente à água",
+    "preco": 119.99,
+    "estoque": 25,
+    "fornecedor_id": 4
+  },
+  {
+    "id": 10,
+    "nome": "Fone de Ouvido",
+    "descricao": "Fone de ouvido Bluetooth com cancelamento de ruído",
+    "preco": 299.99,
+    "estoque": 15,
+    "fornecedor_id": 5
+  },
+  {
+    "id": 11,
+    "nome": "Blusa de Moletom",
+    "descricao": "Blusa de moletom com capuz, cinza",
+    "preco": 79.99,
+    "estoque": 35,
+    "fornecedor_id": 1
+  },
+  {
+    "id": 12,
+    "nome": "Saia Plissada",
+    "descricao": "Saia plissada, comprimento médio",
+    "preco": 49.99,
+    "estoque": 45,
+    "fornecedor_id": 2
+  },
+  {
+    "id": 13,
+    "nome": "Camisa Social",
+    "descricao": "Camisa social manga longa, branca",
+    "preco": 99.99,
+    "estoque": 55,
+    "fornecedor_id": 3
+  },
+  {
+    "id": 14,
+    "nome": "Sapatilha",
+    "descricao": "Sapatilha confortável para uso diário",
+    "preco": 69.99,
+    "estoque": 65,
+    "fornecedor_id": 4
+  },
+  {
+    "id": 15,
+    "nome": "Casaco de Lã",
+    "descricao": "Casaco de lã, ideal para inverno",
+    "preco": 159.99,
+    "estoque": 10,
+    "fornecedor_id": 5
+  },
+  {
+    "id": 16,
+    "nome": "Vestido Longo",
+    "descricao": "Vestido longo, estampado",
+    "preco": 129.99,
+    "estoque": 20,
+    "fornecedor_id": 1
+  },
+  {
+    "id": 17,
+    "nome": "Sandália Rasteira",
+    "descricao": "Sandália rasteira, confortável",
+    "preco": 39.99,
+    "estoque": 75,
+    "fornecedor_id": 2
+  },
+  {
+    "id": 18,
+    "nome": "Carteira Masculina",
+    "descricao": "Carteira de couro, preta",
+    "preco": 59.99,
+    "estoque": 50,
+    "fornecedor_id": 3
+  },
+  {
+    "id": 19,
+    "nome": "Cinto de Couro",
+    "descricao": "Cinto de couro legítimo, marrom",
+    "preco": 49.99,
+    "estoque": 40,
+    "fornecedor_id": 4
+  },
+  {
+    "id": 20,
+    "nome": "Pulseira Feminina",
+    "descricao": "Pulseira de prata, com pedras",
+    "preco": 89.99,
+    "estoque": 30,
+    "fornecedor_id": 5
+  }
+]
