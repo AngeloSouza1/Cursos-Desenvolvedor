@@ -1,7 +1,9 @@
 package Animais;
 
 public class Cachorro {
+
 //atributos
+    static int numeroDeCachorros;   
     private String nome;
     private  String cor;
     private  int altura;
@@ -10,14 +12,6 @@ public class Cachorro {
     private String estadoDeEspirito;
 
 
- //construtores
- 
-
- 
- //métodos
-    public String getNome() {
-        return nome;
-    }
 
 
   //construtores
@@ -30,6 +24,12 @@ public class Cachorro {
         this.peso = peso;
         this.tamanhoDoRabo = tamanhoDoRabo;
         this.estadoDeEspirito = estadoDeEspirito;
+        numeroDeCachorros ++;
+    }
+
+//métodos (get e set)
+    public String getNome() {
+        return nome;
     }
 
     public void setNome(String nome) {
@@ -67,6 +67,7 @@ public class Cachorro {
     public void setTamanhoDoRabo(int tamanhoDoRabo) {
         this.tamanhoDoRabo = tamanhoDoRabo;
     }
+
     public String getEstadoDeEspirito() {
         return estadoDeEspirito;
     }
@@ -75,6 +76,17 @@ public class Cachorro {
         this.estadoDeEspirito = estadoDeEspirito;
     }
 
+    public static int getNumeroDeCachorros() {
+        return numeroDeCachorros;
+    }
+
+
+    public static void setNumeroDeCachorros(int numeroDeCachorros) {
+        Cachorro.numeroDeCachorros = numeroDeCachorros;
+    }
+
+    //métodos
+//--------------------------
     public void comer(){}
 
     public void latir(){
@@ -100,6 +112,15 @@ public class Cachorro {
         }
         return estadoDeEspirito;
     }
+
+
+    @Override
+    public String toString() {
+        return "Cachorro [nome=" + nome + "]";
+    }
+
+
+  
     
 
 
