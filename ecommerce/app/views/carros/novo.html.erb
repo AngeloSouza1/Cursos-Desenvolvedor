@@ -3,15 +3,7 @@
 <hr>
 <div style="text-align:left">
   <form action="<%= carros_criar_path %>" method="POST">
-    <div class="form-group">
-      <strong>Nome</strong>: <input type="text" name="nome" class="form-control custom-input" >
-    </div>
-    <div class="form-group">
-      <strong>Modelo</strong>: <input type="text" name="modelo" class="form-control custom-input" >
-    </div>
-    <div class="form-group">
-      <strong>Ano</strong>: <input type="number" name="ano" class="form-control custom-input" >
-    </div>
+    <%= render "form" %>
     <hr>
     <button type="submit" class="btn btn-primary">Enviar</button>
     <a href="/carros" class="btn btn-warning">Voltar para a lista</a>

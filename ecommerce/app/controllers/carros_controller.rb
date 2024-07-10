@@ -22,4 +22,14 @@ class CarrosController < ApplicationController
     redirect_to carros_path
   end
 
+  def alterar
+    carro = Carro.find(params[:id])
+    carro.nome =params[:nome]
+    carro.modelo =params[:modelo]
+    carro.ano =params[:ano]
+    carro.save
+    redirect_to carros_path
+  end
+
+
 end
