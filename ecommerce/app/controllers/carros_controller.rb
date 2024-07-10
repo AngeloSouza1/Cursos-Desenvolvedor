@@ -14,5 +14,12 @@ class CarrosController < ApplicationController
     @carro = Carro.find(params[:id])
   end
 
+  def novo
+  end
+
+  def criar
+    Carro.create(nome: params[:nome], modelo: params[:modelo], ano: params[:ano])
+    redirect_to carros_path
+  end
 
 end
