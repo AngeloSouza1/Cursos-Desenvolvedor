@@ -31,5 +31,9 @@ class CarrosController < ApplicationController
     redirect_to carros_path
   end
 
-
+  def apagar
+    carro = Carro.find(params[:id])
+    carro.destroy
+    redirect_to carros_path
+  end
 end

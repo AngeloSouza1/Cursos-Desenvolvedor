@@ -13,6 +13,6 @@ Rails.application.routes.draw do
   get '/carros/:id', to: 'carros#show', as: 'carros_show'
   put '/carros/:id', to: 'carros#alterar', as: 'carros_alterar'
   get '/carros/:id/editar', to: 'carros#editar', as: 'carros_editar'
-  get '/carros/:id/apagar', to: 'carros#apagar', as: 'carros_apagar'
+  delete '/carros/:id', to: 'carros#apagar', as: 'carros_apagar'
 
 end
