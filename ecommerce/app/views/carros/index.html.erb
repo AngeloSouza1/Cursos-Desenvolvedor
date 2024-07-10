@@ -1,3 +1,4 @@
+<section class="py-5 text-center container">
 <h1>Lista de Carros</h1>
 <hr>
 <table class="table">
@@ -17,8 +18,9 @@
       <td><%= carro.nome %></td>
       <td><%= carro.modelo %></td>
       <td><%= carro.ano %></td>
-      <td style="width:80px"><%= link_to "Mostra", carros_show_path(carro.id), "class": "btn btn-primary"  %></td>
+      <td style="width:80px"><%= link_to "Mostrar", carros_show_path(carro.id), "class": "btn btn-primary"  %></td>
     </tr>
   <% end %>
   </tbody>
 </table>
+</section>
