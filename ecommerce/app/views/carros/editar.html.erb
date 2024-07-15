@@ -2,13 +2,7 @@
 <h1>Mostrando o  Carro</h1>
 <hr>
 <div style="text-align:left">
-  <form action="<%= carros_alterar_path(@carro) %>" method="POST">
-    <input type="hidden" name="_method" value="put">
-    <%= render "form" %>
-    <hr>
-    <button type="submit" class="btn btn-primary">Enviar</button>
-    <a href="/carros" class="btn btn-warning">Voltar para a lista</a>
-  </form>
+  <%= render "form" , carro: @carro%>
 </div>
 
 </section>
