@@ -1,24 +1,61 @@
-# README
+# Blog Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este projeto foi desenvolvido para criar, gerenciar e visualizar postagens de blog. Utiliza Ruby on Rails e PostgreSQL como banco de dados, proporcionando uma interface amigável tanto para visualização quanto para administração de postagens.
 
-Things you may want to cover:
+## Funcionalidades Implementadas
 
-* Ruby version
+🔹 Visualização de Blogs: Página blog/index para visualização de todas as postagens.
 
-* System dependencies
+🔹 Quando um usuário acessa a página blogindex, ele pode visualizar todas as postagens de blog disponíveis. Administradores podem acessar a seção admin para criar novas postagens, editar ou excluir postagens existentes, e programar postagens para publicação futura.
 
-* Configuration
+## Estrutura do Projeto
+#### A estrutura principal do projeto é a seguinte:
 
-* Database creation
+🔹 app/controllers: Contém os controladores da aplicação.
 
-* Database initialization
+🔹 app/models: Contém os modelos da aplicação.
 
-* How to run the test suite
+🔹 app/views: Contém as views da aplicação.
 
-* Services (job queues, cache servers, search engines, etc.)
+🔹 views/blogindex: Contém as views relacionadas à visualização de blogs.
 
-* Deployment instructions
+🔹 views/admin: Contém as views relacionadas à administração de postagens.
 
-* ...
+🔹 config: Contém arquivos de configuração, incluindo rotas.
+
+🔹 db: Contém arquivos relacionados ao banco de dados.
+
+
+## Instalação
+
+Siga os passos abaixo para configurar o projeto em seu ambiente local:
+
+🔹 Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/blog
+cd blog
+```
+🔹 Instale as dependências do Ruby:
+
+```bash
+bundle install
+```
+🔹 Configure o banco de dados:
+```bash
+rails db:create
+rails db:migrate
+```
+
+🔹 Inicie o Servidor
+```bash
+rails s
+```
+🔹 Abra o navegador e acesse http://localhost:3000 para ver a aplicação em execução.
+
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do projeto e enviar suas melhorias através de pull requests.
+
+
