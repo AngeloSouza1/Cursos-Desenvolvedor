@@ -8,9 +8,16 @@ class Fornecedor < ApplicationRecord
     #com combinacao
     # validates_uniqueness_of :email, case_sensitive: false, scope: :cnpj
 
+    validates_acceptance_of :termos_de_uso
+
+
+
+
+
+
     attr_accessor :confirmacao_senha
     validates_confirmation_of :senha, if: :deve_ter_senha_confirmada? 
-
+   
     private
 
         def deve_ter_senha_confirmada? 
