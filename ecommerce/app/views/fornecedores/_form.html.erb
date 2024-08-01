@@ -18,6 +18,10 @@
   </div>
 
   <div>
+  <%= form.label :email ,style: "display: block" %>
+  <%= form.text_field :email, class: "form-control" %>
+</div>
+  <div>
     <%= form.label :cnpj, style: "display: block" %>
     <%= form.text_field :cnpj, class: "form-control" %>
   </div>
@@ -26,7 +30,13 @@
     <%= form.label :endereco, style: "display: block" %>
     <%= form.text_area :endereco, class: "form-control" %>
   </div>
-  <br>
+  
+  <div>
+    <%= form.label :cep, style: "display: block" %>
+    <%= form.text_field :cep, class: "form-control" %>
+  </div>
+  
+   <br>
   <div>
     <%= form.submit "Salvar", class: "btn btn-primary" %>
 
