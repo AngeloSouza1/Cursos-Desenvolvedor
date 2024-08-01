@@ -65,6 +65,7 @@ class FornecedoresController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def fornecedor_params
-      params.require(:fornecedor).permit(:nome, :cnpj, :endereco, :email, :cep)
+
+      params.require(:fornecedor).permit(:nome, :cnpj, :endereco, :email, :cep, :senha, :confirmacao_senha)
     end
 end

@@ -36,6 +36,19 @@
     <%= form.text_field :cep, class: "form-control" %>
   </div>
   
+  <div>
+    <%= form.label :senha, style: "display: block" %>
+    <%= form.password_field :senha, class: "form-control" %>
+  </div>
+
+  <div>
+  <%= form.label :confirmacao_senha, style: "display: block" %>
+  <%= form.password_field :confirmacao_senha, class: "form-control" %>
+</div>
+
+
+
+  
    <br>
   <div>
     <%= form.submit "Salvar", class: "btn btn-primary" %>
