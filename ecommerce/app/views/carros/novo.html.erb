@@ -3,10 +3,9 @@
 <hr>
 <div style="text-align:left">
   <form action="<%= carros_criar_path %>" method="POST">
-    <%= render "form", carro: Carro.new %>
+    <%= render "form", carro: @carro %>
     <hr>
-    <button type="submit" class="btn btn-primary">Enviar</button>
-    <a href="/carros" class="btn btn-warning">Voltar para a lista</a>
+   
   </form>
 </div>
 

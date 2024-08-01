@@ -1,12 +1,17 @@
 <form action="<%= carro.new_record? ? carros_criar_path : carros_alterar_path(@carro) %>" method="POST">
 
-
-
-
-
-
-
-
+  <% if carro.errors.any? %>
+      <div style="color: red">
+        <h2>
+          Contém <%=carro.errors.count %> erro(s) para ser resolvido(s) abaixo:
+        </h2>
+        <ul>
+          <% carro.errors.each do |error| %>
+            <li><%= error.full_message %></li>
+          <% end %>
+        </ul>
+      </div>
+      <% end %>
 
   <% unless carro.new_record? %>
     <input type="hidden" name="_method" value="put">
