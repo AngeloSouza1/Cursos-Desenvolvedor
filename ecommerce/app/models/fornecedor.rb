@@ -11,7 +11,8 @@ class Fornecedor < ApplicationRecord
     validates_acceptance_of :termos_de_uso
 
 
-
+    #validação customizada
+    #validade :precisa_ter_cnpj_nome_email_iguais
 
 
 
@@ -21,9 +22,17 @@ class Fornecedor < ApplicationRecord
     private
 
         def deve_ter_senha_confirmada? 
-             if self.confirmacao_senha != self.senha
+            return self.confirmacao_senha.blank? && self.senha.blank?    
+            if self.confirmacao_senha != self.senha
                    self.errors.add("Confirmação senha", "está diferente da Senha")
              end
         end
+      
+        # def precisa_ter_cnpj_nome_email_iguais
+        #     if self.cnpj != self.nome || self.cnpj != self.email
+        #         self.erros.add("Validação customizada", "O CNPJ precisar ser igual...")
+        #     end    
+        # end    
+
 
 end
