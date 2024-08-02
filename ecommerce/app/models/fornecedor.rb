@@ -1,6 +1,6 @@
 class Fornecedor < ApplicationRecord
     belongs_to :fornecedor_tipo
-    has_many :fornecedores_enderecos
+    has_many :fornecedores_enderecos, dependent: :destroy
     has_many :enderecos, through: :fornecedores_enderecos
 
     validates_presence_of :nome, :cnpj, :fornecedor_tipo_id
