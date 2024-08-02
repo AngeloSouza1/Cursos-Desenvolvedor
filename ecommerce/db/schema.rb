@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_08_01_195646) do
+ActiveRecord::Schema[7.1].define(version: 2024_08_02_133856) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -18,6 +18,12 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_01_195646) do
     t.string "nome", limit: 100
     t.string "modelo", limit: 150
     t.integer "ano"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "fornecedor_tipo", force: :cascade do |t|
+    t.string "nome", limit: 100
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -32,6 +38,9 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_01_195646) do
     t.string "email"
     t.string "senha"
     t.string "termos_de_uso", limit: 5
+    t.bigint "fornecedor_tipo_id"
+    t.index ["fornecedor_tipo_id"], name: "index_fornecedores_on_fornecedor_tipo_id"
   end
 
+  add_foreign_key "fornecedores", "fornecedor_tipo"
 end
