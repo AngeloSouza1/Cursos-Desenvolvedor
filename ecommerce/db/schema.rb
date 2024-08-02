@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_08_02_133856) do
+ActiveRecord::Schema[7.1].define(version: 2024_08_02_144917) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -22,7 +22,18 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_02_133856) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "fornecedor_tipo", force: :cascade do |t|
+  create_table "enderecos", force: :cascade do |t|
+    t.string "logradouro", limit: 255
+    t.string "numero", limit: 50
+    t.string "cep", limit: 11
+    t.string "cidade", limit: 150
+    t.string "estado", limit: 2
+    t.string "complemento", limit: 255
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "fornecedor_tipos", force: :cascade do |t|
     t.string "nome", limit: 100
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -42,5 +53,16 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_02_133856) do
     t.index ["fornecedor_tipo_id"], name: "index_fornecedores_on_fornecedor_tipo_id"
   end
 
-  add_foreign_key "fornecedores", "fornecedor_tipo"
+  create_table "fornecedores_enderecos", force: :cascade do |t|
+    t.bigint "endereco_id", null: false
+    t.bigint "fornecedor_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["endereco_id"], name: "index_fornecedores_enderecos_on_endereco_id"
+    t.index ["fornecedor_id"], name: "index_fornecedores_enderecos_on_fornecedor_id"
+  end
+
+  add_foreign_key "fornecedores", "fornecedor_tipos", column: "fornecedor_tipo_id"
+  add_foreign_key "fornecedores_enderecos", "enderecos"
+  add_foreign_key "fornecedores_enderecos", "fornecedores"
 end

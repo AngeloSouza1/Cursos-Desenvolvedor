@@ -1,5 +1,8 @@
 class Fornecedor < ApplicationRecord
     belongs_to :fornecedor_tipo
+    has_many :fornecedores_enderecos
+    has_many :enderecos, through: :fornecedores_enderecos
+
     validates_presence_of :nome, :cnpj, :fornecedor_tipo_id
     validates_format_of :email, with: URI::MailTo::EMAIL_REGEXP, allow_blank: true
     validates_format_of :cep, with: /\A\d{5}-\d{3}\z/, allow_blank: true, message: "deve ter o formato XXXXX-XXX"
@@ -15,11 +18,11 @@ class Fornecedor < ApplicationRecord
     #validação customizada
     #validade :precisa_ter_cnpj_nome_email_iguais
 
-
+    
 
     attr_accessor :confirmacao_senha
     validates_confirmation_of :senha, if: :deve_ter_senha_confirmada? 
-   
+    
     private
 
         def deve_ter_senha_confirmada? 

@@ -16,6 +16,6 @@ test:
 
 production:
   <<: *default
-  database: ecommerce_production
+  database: necommerce_productio
   username: <%= ENV['DATABASE_USERNAME'] %>
   password: <%= ENV['DATABASE_PASSWORD'] %>

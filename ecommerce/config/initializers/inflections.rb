@@ -33,6 +33,7 @@ ActiveSupport::Inflector.inflections do |inflect|
   inflect.irregular 'mão', 'mãos'
   inflect.irregular 'pão', 'pães'
   inflect.irregular 'carro', 'carros'
+  inflect.irregular 'endereco', 'enderecos'
   # Palavras que não mudam no plural
   inflect.uncountable %w( tórax tênis ônibus lápis fênix )
 end
