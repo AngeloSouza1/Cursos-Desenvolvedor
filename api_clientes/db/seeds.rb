@@ -9,7 +9,8 @@ require 'faker'
 end
 
 
-Administrador.create(nome:"angelo", email: "angelo@teste.com", senha: "123456")
+Administrador.create(nome:"angelo", email: "angelo@teste.com", senha: "123456", perfil: "ADM")
+Administrador.create(nome:"user", email: "user@teste.com", senha: "123456", perfil: "Editor")
 
 
 

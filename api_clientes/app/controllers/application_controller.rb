@@ -1,7 +1,17 @@
 class ApplicationController < ActionController::API
-  before_action :autenticacao
+  before_action :autenticacao, :perfil
 
   private
+ 
+  def perfil
+      if @adm.present? && @adm.perfil !="ADM" && ["update", "destroy"].include?(params[:action])
+        return render json: { erro: "Administrador de perfil Editor não pode atualizar e nem apagar registros"}, status: 403
+      end
+
+
+
+  end
+
 
   def autenticacao
     header_auth = request.headers['Authorization']

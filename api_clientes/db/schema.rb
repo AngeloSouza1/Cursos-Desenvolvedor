@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_08_06_201052) do
+ActiveRecord::Schema[7.1].define(version: 2024_08_06_232353) do
   create_table "administradores", force: :cascade do |t|
     t.string "nome", limit: 150
     t.string "email", limit: 255
     t.string "senha", limit: 255
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "perfil", limit: 20
   end
 
   create_table "cliente", force: :cascade do |t|

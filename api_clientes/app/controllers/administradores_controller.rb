@@ -11,7 +11,8 @@ def login
     data: {
       id: @administrador.id,
       nome: @administrador.nome,
-      email: @administrador.email
+      email: @administrador.email,
+      perfil: @administrador.perfil
     },
     exp: Time.now.to_i + 3600 # expira em 1 hora
   }
