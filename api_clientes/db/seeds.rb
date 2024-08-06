@@ -9,4 +9,11 @@ require 'faker'
 end
 
 
+Administrador.create(nome:"angelo", email: "angelo@teste.com", senha: "123456")
+
+
+
+
+
+
 puts "Banco SEED atualizado"
