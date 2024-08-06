@@ -6,4 +6,11 @@ Rails.application.routes.draw do
   
   # Defines the root path route ("/")
   root "home#index"
+
+  get "/clientes", to:"clientes#index"
+  get "/clientes/:id", to: "clientes#show"
+  post "/clientes", to: "clientes#create"
+  delete "/clientes/:id", to: "clientes#destroy"
+  match "/clientes/:id", to: 'clientes#update', via: [:patch, :put]
+
 end
