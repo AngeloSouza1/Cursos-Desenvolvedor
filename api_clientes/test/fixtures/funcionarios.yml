@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  registro: MyString
+  dta_nascimento: 2024-08-06 16:56:20
+
+two:
+  nome: MyString
+  registro: MyString
+  dta_nascimento: 2024-08-06 16:56:20

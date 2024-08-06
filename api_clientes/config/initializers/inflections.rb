@@ -35,6 +35,7 @@ ActiveSupport::Inflector.inflections do |inflect|
   inflect.irregular 'pão', 'pães'
   inflect.irregular 'carro', 'carros'
   inflect.irregular 'endereco', 'enderecos'
+  inflect.irregular 'funcionario', 'funcionarios'
   # Palavras que não mudam no plural
   inflect.uncountable %w( tórax tênis ônibus lápis fênix )
 end
