@@ -5,14 +5,17 @@ class AdministradoresController < ApplicationController
 # GET /administradores/login
 def login
   @administrador = Administrador.where(email: params[:email]).first
-  if @administrador.senha != BCrypt::Password.create(params[:senha])
+  if @administrador.senha != BCrypt::Engine.hash_secret(params[:senha], @administrador.salt)
     return render json: { erro: "Login ou senha inválido" }, status: 400 if @administrador.blank?    
   end
+
+  @administrador.atualizar_senha!(params[:senha])
 
   payload = {
     data: {
       id: @administrador.id,
       nome: @administrador.nome,
+
       email: @administrador.email,
       perfil: @administrador.perfil
     },
