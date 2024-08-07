@@ -49,3 +49,4 @@ end
 
 gem "faker"
 gem "jwt"
+gem "bcrypt"

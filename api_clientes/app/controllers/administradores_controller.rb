@@ -4,8 +4,10 @@ class AdministradoresController < ApplicationController
 
 # GET /administradores/login
 def login
-  @administrador = Administrador.where(email: params[:email], senha: params[:senha]).first
-  return render json: { erro: "Login ou senha inválido" }, status: 400 if @administrador.blank?
+  @administrador = Administrador.where(email: params[:email]).first
+  if @administrador.senha != BCrypt::Password.create(params[:senha])
+    return render json: { erro: "Login ou senha inválido" }, status: 400 if @administrador.blank?    
+  end
 
   payload = {
     data: {
@@ -22,7 +24,7 @@ def login
 
   token = JWT.encode(payload, secret, algorithm)
 
-  render json: {
+render json: {
     nome: @administrador.nome,
     email: @administrador.email,
     token: token
