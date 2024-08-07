@@ -10,9 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_08_02_144917) do
+ActiveRecord::Schema[7.1].define(version: 2024_08_07_184308) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "administradores", force: :cascade do |t|
+    t.string "nome", limit: 150
+    t.string "email", limit: 255
+    t.string "senha", limit: 255
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "carros", force: :cascade do |t|
     t.string "nome", limit: 100
@@ -33,7 +41,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_02_144917) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "fornecedor_tipos", force: :cascade do |t|
+  create_table "fornecedor_tipo", id: :bigint, default: -> { "nextval('fornecedor_tipos_id_seq'::regclass)" }, force: :cascade do |t|
     t.string "nome", limit: 100
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -62,7 +70,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_02_144917) do
     t.index ["fornecedor_id"], name: "index_fornecedores_enderecos_on_fornecedor_id"
   end
 
-  add_foreign_key "fornecedores", "fornecedor_tipos", column: "fornecedor_tipo_id"
+  add_foreign_key "fornecedores", "fornecedor_tipo"
   add_foreign_key "fornecedores_enderecos", "enderecos"
   add_foreign_key "fornecedores_enderecos", "fornecedores"
 end

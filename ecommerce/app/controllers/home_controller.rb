@@ -1,6 +1,9 @@
 class HomeController < ApplicationController
-  def index
+  skip_before_action :valida_sessao
 
+
+
+  def index
   end
 
 end
