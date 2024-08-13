@@ -69,4 +69,4 @@ group :test do
 end
 
 
-gem "device"
+gem "devise"
