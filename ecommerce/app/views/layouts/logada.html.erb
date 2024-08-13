@@ -25,9 +25,29 @@
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/login">Login</a>
+              <a class="nav-link" href="/carros">Carros</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="/fornecedores">Fornecedores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/fornecedor_tipo">Tipos de Fornecedores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/enderecos">Endereços</a>
+            </li>
+            <li class="nav-item">
+              <%= form_with url: destroy_user_session_path, method: :delete, local: true, class: 'd-flex' do %>
+                <%= button_to 'Sair', nil, class: 'nav-link btn btn-link', style: 'border: none; background: transparent;  padding: 7;', data: { confirm: 'Você tem certeza que deseja sair?' } %>
+              <% end %>
             </li>
           </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Carro desejado..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+          <span style="color: #fff;"><%= @adm&.nome || " " %></span>
         </div>
       </div>
     </nav>

@@ -1,7 +1,7 @@
 class FornecedoresEnderecosController < ApplicationController
   before_action :set_fornecedores_endereco, only: %i[ show edit update destroy ]
   before_action :set_fornecedor
-
+  layout 'logada'
   # GET /fornecedores_enderecos or /fornecedores_enderecos.json
   def index
     @fornecedores_enderecos = FornecedoresEndereco.where(fornecedor_id: @fornecedor.id)
